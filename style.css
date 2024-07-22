@@ -3,49 +3,6 @@
     margin: 0;
 }
 
-/* ARROW 
-
-.arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s ease;
-}
-
-.arrow span {
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-bottom: 0.2rem solid black;
-    border-right: 0.2rem solid black;
-    transform: rotate(135deg); 
-    margin: -5px;
-    animation: animate 2s infinite;
-}
-
-.arrow span:nth-child(2) {
-    animation-delay: -0.2s;
-}
-
-.arrow span:nth-child(3) {
-    animation-delay: -0.4s;
-}
-
-@keyframes animate {
-    0% {
-        opacity: 0;
-        transform: rotate(315deg) translate(-10px, -10px); 
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        transform: rotate(315deg) translate(10px, 10px); 
-    }
-}
-arrow end*/
-
 body{
     height: 2000vh;
 }
@@ -159,8 +116,8 @@ html{
 }
 
 .podnikatel h1{
-    padding: 5rem 15rem 1rem 8rem;
-    font-size: 3.75rem;
+    padding: 7rem 15rem 1rem 8rem;
+    font-size: 4rem;
     font-weight: 600;
 }
 
@@ -171,7 +128,7 @@ html{
 .podnikatel h2{
     padding: 1rem 15rem 0rem 8rem;
     font-weight: 550;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .podnikatel h3{
     padding: 1rem 15rem 0rem 8rem;
@@ -180,136 +137,14 @@ html{
 }
 
 
-.investor-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+/* posnikatel end */
+/* cestovatel start*/
+.cestovatel{
+    padding: 8rem;
 }
-/*
-.btn {
-    padding: 10px 20px;
-    background-color: lightgrey;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-decoration: none; 
-    transition: 0.7s ease-in-out;
-    gap: 0.2rem;
-    position: relative;
-    min-width: 8rem; 
-}
-
-.btn:hover {
-    background-color: black;
-    color: white;
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
-    padding: 1rem 5rem; 
-}
-
-.arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.arrow span {
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
-    transform: rotate(135deg); 
-    margin: -5px;
-    animation: animate 2s infinite;
-}
-/*
-.podnikatel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.3rem;
-}
-
-.podnikatel button {
-    padding: 0.7rem 1.3rem;
-    background-color: lightgrey;
-    color: black;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 0.2rem;
-    position: relative;
-    min-width: 8rem; 
-    transition: 0.7s ease-in-out;
-}
-.podnikatel button:hover{
-    background-color: black;
-    color: white;
-    box-shadow: 0.1875rem 0.1875rem 1.25rem rgba(0, 0, 0, 0.3);
-    padding: 1rem 5rem 1rem 5rem;
-    .arrow{
-        display: none;
-    }
-}
-.podnikatel button h6{
-    font-size: 1.2rem;
-}
-/*
-.podnikatel button {
-    padding: 0.1rem 2rem;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.3rem;
-    cursor: pointer;
-    transition: 0.5s ease;
-    margin-right: 25rem;
-}
-
-.podnikatel button:hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0.1875rem 0.1875rem 1.25rem rgba(0, 0, 0, 0.3);
-    padding: 1rem 5rem 1rem 5rem;
-}
-
-/*
-section {
-    padding: 0.625rem;
-    opacity: 0; 
-    transform: translateY(1.25rem); 
-    transition: opacity 0.2s ease-out, transform 0.2s ease-out; 
-}
-
-section.visible {
-    opacity: 1; 
-    transform: translateY(0); 
-}
-*/
-/* PODNIKATEL END */
-
-/* CESTOVATEL START */
-/* styles.css */
-
-
-.cestovatel {
-    padding-left: 8rem;
-}
-
 .content-0 h1 {
     margin: 0;
-    padding: 4rem 0rem 1rem 0rem;
+    padding: 8rem 0rem 1rem 0rem;
     font-size: 4rem;
 }
 
@@ -319,19 +154,19 @@ section.visible {
 
 .button-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     margin-top: 10px;
 }
 
 .btn-link {
-    text-decoration: none; /* Remove underline from the link */
+    text-decoration: none; 
 }
 
 .btn {
     padding: 10px 10px;
-    width: auto; /* Allow width to adjust based on content */
-    height: auto; /* Allow height to adjust based on content */
+    width: auto; 
+    height: auto; 
     background-color: lightgrey;
     color: black;
     border: none;
@@ -339,25 +174,25 @@ section.visible {
     font-size: 16px;
     cursor: pointer;
     display: flex;
-    align-items: center;
-    justify-content: center; /* Center content horizontally */
-    text-decoration: none; /* Remove underline from link */
-    transition: 0.7s ease-in-out;
+    align-items: left;
+    justify-content: center; 
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
     gap: 0.2rem;
-    min-width: 12cap; /* Ensure there is enough space for both text and arrow */
+    min-width: 12cap; 
     position: relative;
 }
 
 .btn-text {
     transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;
-    display: inline-block; /* Ensure text is treated as a block for positioning */
-    z-index: 1; /* Ensure text is above other elements */
+    display: inline-block; 
+    z-index: 1; 
 }
 
 .btn:hover .btn-text {
-    color: white; /* Change text color to white */
-    opacity: 1; /* Ensure text is visible */
-    transform: translateY(0); /* Center text vertically */
+    color: white; 
+    opacity: 1; 
+    transform: translateY(0); 
 }
 
 .btn:hover {
@@ -365,113 +200,33 @@ section.visible {
     color: white;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
     padding: 1rem 5rem;
-  .arrow{
-    display: none;
-  }
+  
 }
-
-.arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute; /* Position the arrow absolute to keep it within button bounds */
-    right: 1px; /* Adjust positioning as needed */
-}
-
-.arrow span {
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    transform: rotate(135deg); /* Rotating to point left */
-    margin: -5px;
-    animation: animate 2s infinite;
-}
-
-.arrow span:nth-child(2) {
-    animation-delay: -0.2s;
-}
-
-.arrow span:nth-child(3) {
-    animation-delay: -0.4s;
-}
-
-@keyframes animate {
-    0% {
-        opacity: 0;
-        transform: rotate(315deg) translate(-10px, -10px); /* Adjust to point left */
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        transform: rotate(315deg) translate(10px, 10px); /* Adjust to point left */
-    }
-}
-
 
 .content {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Align items vertically centered */
+    align-items: center; 
     margin-top: 20px;
 }
 
 .text-content {
     flex: 1;
     text-align: left;
-    padding-right: 20px; /* Add padding to ensure space between text and image */
+    padding-right: 20px; 
 }
 
 .image-content {
     flex: 1;
-    text-align: right; /* Ensure the image is aligned to the right */
+    text-align: right; 
     padding-right: 150px;
 }
 
 .side-image {
-    width: 35rem;
+    width: 70%;
+    max-width: 70%;
     height: auto;
 }
-
-.text-content h3,
-.text-content h1,
-.text-content p,
-.text-content .action-btn {
-    margin: 10px 0;
-}
-/*Add padding ot the last hing*/
-/*
-.img-container {
-    display: flex;
-    justify-content: center;
-    gap: 1.25rem;
-    justify-content: space-evenly;
-}
-
-.img-container div {
-    position: relative;
-    width: 30rem;
-    height: 30rem;
-    overflow: hidden;
-    border-radius: 0.625rem;
-    transition: transform 0.1s ease, border-radius 0.3s ease;
-}
-
-.img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.1s ease, border-radius 0.3s ease;
-}
-
-.img-container div:hover img {
-    transform: scale(1.2);
-    border-radius: 1.25rem;
-}
-*/
 
 
 /* CESTOVATEL END */
@@ -479,11 +234,10 @@ section.visible {
 /* INVESTOR START */
 .investor{
     height: auto;
-
 }
 
 .investor h1{
-    padding: 1rem 12rem 1rem 8rem;
+    padding: 12rem 12rem 1rem 8rem;
     font-size: 4rem;
     font-weight: 600;
 }
@@ -499,42 +253,6 @@ section.visible {
 .investor h3{
     padding: 1.5rem 15rem 0rem 8rem;
     
-}
-/*.investor-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.btn {
-    padding: 10px 20px;
-    background-color: lightgrey;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-decoration: none;
-    transition: 0.7s ease-in-out;
-    gap: 0.2rem;
-    position: relative;
-    min-width: 8rem; 
-}
-
-.btn:hover {
-    background-color: black;
-    color: white;
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
-    padding: 1rem 5rem;
-}
-
-
-.investor button h6{
-    font-size: 1.2rem;
 }
 /* INVESTOR END*/
 
