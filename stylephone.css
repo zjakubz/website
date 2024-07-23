@@ -86,19 +86,19 @@
         display: block;
     }
 
-    .dropdown-content a:hover {
+    .dropdown-content a:e {
         background-color: #ffffff;
         
         
     }
 
-    .dropdown:hover .dropdown-content {
+    .dropdown:active .dropdown-content {
         display: block;
         max-height: 500px;
         box-shadow: 1rem 1rem 50rem 50rem rgba(0, 0, 0, 0.5);
     }
 
-    .dropdown:hover .dropbtn {
+    .dropdown:active .dropbtn {
         background-color: white;
     }
 }
