@@ -1,5 +1,5 @@
 /* GLOBAL STYLES FOR SMALLER SCREENS */
-@media (max-width: 1267px) {
+@media (max-width: 767px) {
     body {
         height: 250vh;
     }
