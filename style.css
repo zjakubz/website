@@ -33,7 +33,7 @@ html{
     transition: backdrop-filter 0.8s; 
 }
 
-.logo a{
+.logo-1 a{
     color: black;
     background-color: white;
     text-decoration: none;
@@ -144,12 +144,20 @@ html{
 }
 .content-0 h1 {
     margin: 0;
-    padding: 8rem 0rem 1rem 0rem;
+    padding: 8rem 0rem 2rem 0rem;
     font-size: 4rem;
+    font-weight: 600;
 }
-
-.content-0 p {
-    margin: 10px 0;
+.text-content h1{
+    font-size: 2rem;
+    font-weight: 550;
+}
+.text-content h2{
+    padding-top: 1rem;
+}
+.text-content p {
+    padding-top: 1rem;
+    
 }
 
 .button-container {
@@ -157,6 +165,7 @@ html{
     justify-content: left;
     align-items: left;
     margin-top: 10px;
+    
 }
 
 .btn-link {
@@ -164,9 +173,8 @@ html{
 }
 
 .btn {
-    padding: 10px 10px;
-    width: auto; 
-    height: auto; 
+    padding: 0.7rem 1rem;
+    margin-top: 1rem;
     background-color: lightgrey;
     color: black;
     border: none;
@@ -226,6 +234,7 @@ html{
     width: 70%;
     max-width: 70%;
     height: auto;
+    border-radius: 0.5rem;
 }
 
 
@@ -260,22 +269,22 @@ html{
 .otec{
     height: auto;
     background-color: rgba(251, 251, 251, 0.295);
+    padding: 2rem 0rem 2rem 0rem;
 }
 
 .otec h1{
     padding: 15rem 15rem 0.25rem 8rem;
-    font-size: 4.75rem;
+    font-size: 4rem;
     font-weight: 600;
 }
 
 .otec p{
     padding: 0.3rem 15rem 0rem 8rem;
     font-weight: 350;
-    font-size: 1.2rem;
 }
 .otec h2{
     padding: 1.5rem 15rem 0rem 8rem;
-    font-weight: 600;
+    font-weight: 450;
 }
 
 .investor-container {
@@ -296,7 +305,9 @@ html{
 .margin-bottom {
     margin-bottom: 20px;
 }
-
+.input-field{
+    padding-bottom: 4rem;
+}
 .main-container {
     display: flex;
     align-items: center;
@@ -417,5 +428,12 @@ footer {
 footer hr {
     margin: 2rem 0;
 }
-
+footer h4{
+    padding-top: 2rem;
+    
+}
+footer h4 a{
+    text-decoration: none;
+    color: black;
+}
 /* FOOTER END*/
