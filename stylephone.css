@@ -137,11 +137,11 @@
     }
 
     .main-text ul li a:hover {
-        background-color: rgba(175, 242, 248, 0.6);
-        padding: 0.3rem;
-        margin-left: 2.2rem;
-        text-align: center;
-        border-radius: 0.75rem;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 0;
+        margin-left: 0;
+        text-align: none;
+        border-radius: 0rem;
     }
 
     /* POODNIKATEL (BUSINESS) SECTION */

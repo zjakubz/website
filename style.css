@@ -3,9 +3,7 @@
     margin: 0;
 }
 
-body{
-    height: 2000vh;
-}
+
 
 html{
     scroll-behavior: smooth;
@@ -35,7 +33,7 @@ html{
 
 .logo-1 a{
     color: black;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
     text-decoration: none;
     border-color: none;
 }
@@ -53,7 +51,7 @@ html{
     border-radius: 0.5em;
     cursor: pointer;
     transition: 0.5s ease;
-    background-color: rgba(246, 246, 246, 0.66);
+    background-color: rgba(246, 246, 246, 0.5);
 }
 .nav-links li  a{
     text-decoration: none;
