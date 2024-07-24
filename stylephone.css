@@ -46,7 +46,7 @@
     }
     
 
-    /* DROPDOWN MENU */
+/* DROPDOWN MENU */
 .dropbtn {
     background-color: rgba(0, 0, 0, 0);
     color: black;
@@ -86,17 +86,12 @@
     background-color: #ffffff;
 }
 
-/* Added styles for mobile dropdown visibility */
-.dropdown.show .dropdown-content {
+.dropdown-content.show {
     max-height: 500px;
     box-shadow: 1rem 1rem 50rem 50rem rgba(0, 0, 0, 0.5);
 }
 
-.dropdown.show .dropbtn {
-    background-color: white;
 }
-
-
 /* MOBILE VIEW STYLES (UP TO 767px) */
 @media (max-width: 767px) {
     /* GENERAL STYLES */
