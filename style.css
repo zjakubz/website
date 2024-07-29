@@ -23,7 +23,7 @@ html{
     justify-content: space-around;
     align-items: center;
     display: flex;
-    padding: 1.25rem 5rem;
+    padding: 2rem 5rem;
     position: fixed; 
     top: 0;
     width: 100%;
@@ -46,7 +46,7 @@ html{
 }
 
 .nav-links li a {
-    padding: 0.15rem 0.45rem;
+    padding: 0.3rem 0.45rem;
     border: none;
     border-radius: 0.5em;
     cursor: pointer;
@@ -229,8 +229,8 @@ html{
 }
 
 .side-image {
-    width: 70%;
-    max-width: 70%;
+    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 0.5rem;
 }

@@ -1,5 +1,5 @@
 /* GLOBAL STYLES FOR SMALLER SCREENS */
-@media (max-width: 767px) {
+@media (max-width: 900px) {
     body {
         height: 250vh;
     }
@@ -45,7 +45,6 @@
         
     }
     
-
 /* DROPDOWN MENU */
 .dropbtn {
     background-color: rgba(0, 0, 0, 0);
@@ -92,8 +91,9 @@
 }
 
 }
+
 /* MOBILE VIEW STYLES (UP TO 767px) */
-@media (max-width: 767px) {
+@media (max-width: 900px) {
     /* GENERAL STYLES */
     .podnikatel, .cestovatel, .investor, .otec, .kontakt, .footer {
         background-color: white;
